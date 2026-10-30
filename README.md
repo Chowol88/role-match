@@ -85,11 +85,6 @@ machine. The front-end tests (`web/src`) run quickly.
 Current Chrome, Microsoft Edge (Chromium), Firefox, Safari 16+ and other
 Chromium-based browsers. Internet Explorer is not supported.
 
-## Design references
-
-The images in `web/public/` (landing, chooser and dashboard mock-ups and the app
-icon) are design references used while building the preview.
-
 ## Licence
 
 No licence is granted. The code is published for viewing; all rights are

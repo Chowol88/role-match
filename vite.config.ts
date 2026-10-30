@@ -8,6 +8,13 @@ import mkcert from 'vite-plugin-mkcert';
 // self-signed certificate on localhost.
 export default defineConfig({
   root: 'web',
+  // Emit the production build to <repo>/dist (not web/dist) so static hosts
+  // that default to a root-level `dist` folder (e.g. Vercel) work with no
+  // extra configuration.
+  build: {
+    outDir: '../dist',
+    emptyOutDir: true,
+  },
   plugins: [react(), mkcert()],
   server: {
     port: 5173,
