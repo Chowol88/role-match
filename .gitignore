@@ -1,0 +1,12 @@
+node_modules/
+dist/
+audit/
+certs/
+*.log
+*-done.txt
+install-done*.txt
+audit-test-*/
+.vite/
+coverage/
+# Outdated internal dev-status doc generators (describe the removed AI mode).
+gen-docs/
